@@ -1,0 +1,71 @@
+# -------------------- Python --------------------
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+*.pyo
+*.pyd
+*.pyc
+
+# ------------------ Data Files ------------------
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
+*.xml
+*.parquet
+
+# --------------- Model Artifacts ----------------
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.sav
+
+# ----------------- Streamlit --------------------
+.streamlit/config.toml
+
+# --------------- Virtual Envs -------------------
+venv/
+env/
+.venv/
+.env/
+
+# ------------------ Logs ------------------------
+*.log
+*.out
+*.err
+nohup.out
+
+# -------------- Jupyter/Colab -------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------------- VSCode/IDE --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------- Docker/Build --------------------
+Dockerfile*
+.dockerignore
+*.dockerfile
+
+# ----------------- OS Files ---------------------
+.DS_Store
+Thumbs.db
+
+# -------------- Secrets & Keys ------------------
+*.key
+*.pem
+*.env
+secrets.env
+
+# ----------------- Reports ----------------------
+*.pdf
+*.docx
+*.pptx
+*.tex
+output/
+build/
