@@ -55,7 +55,9 @@ Key Features
 - SCADA-based anomaly prediction
 - HMI-style UI to visualize turbine status and component-level faults
 
----
+Documentation
+- Includes a detailed report that explains background and overview of the topic, algorithms used, and results.
+- 
 Evaluation Metrics
 - Fault-only classification accuracy
 - Training/inference time per model
