@@ -12,18 +12,15 @@ Project Structure
 
 ```bash
 .
-├── app.py                         # Main Streamlit dashboard
-├── Dockerfile                     # Container specification
-├── requirements.txt               # Python dependencies
-├── utils/
-│   ├── __init__.py                # Init file
-│   ├── cost_forecast.py           # Cost calculation logic
-│   └── model_helpers.py           # ML model utilities (optional)
-├── data/
-│   ├── turbine_T01_data.csv       # Healthy sensor readings
-│   └── failure_only_sensor_data.csv  # Real fault logs
-├── results/                       # Figures, plots, and evaluation metrics
-└── README.md                      # Project overview
+docker_complicated/
+├── .dockerignore
+├── docker-compose.yml
+├── Dockerfile
+├── full_complicated_model.py            # Main ML pipeline
+├── failure_only_sensor_data_with_failure_info.csv
+├── turbine_T01_data.csv
+├── turbine_T06_data.csv
+└── requirements.txt
 ```
 
 ---
@@ -56,7 +53,7 @@ Key Features
 - HMI-style UI to visualize turbine status and component-level faults
 
 Documentation
-- Includes a detailed report that explains background and overview of the topic, algorithms used, and results.
+- Includes a detailed report that explains the background and overview of the topic, algorithms used, and results.
 - 
 Evaluation Metrics
 - Fault-only classification accuracy
@@ -69,7 +66,7 @@ Evaluation Metrics
 - Containerized with Docker
 - Suitable for cloud or edge deployment
 - Integration-ready for SCADA/HMI interfaces
-- Integration ready for BMS
+- Integration is ready for BMS
 
 Contributors
 - Amina Iskandarani — ami43@mail.aub.edu
