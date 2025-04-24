@@ -71,7 +71,7 @@ Evaluation Metrics
 Contributors
 - Amina Iskandarani — ami43@mail.aub.edu
 - Ahmad Daher — ahd43@mail.aub.edu
-- Ahmad Younes — amy04@mail.aub.edu
+- Ahmad Younes — any04@mail.aub.edu
 
 License
 This project is developed solely for academic purposes at the American University of Beirut. No commercial usage is permitted without explicit permission.
