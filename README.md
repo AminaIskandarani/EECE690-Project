@@ -4,10 +4,11 @@ This repository contains our final project for EECE 690 - Introduction to Machin
 
 > **Fault Prediction and Preventive Maintenance for Wind Turbines Using Machine Learning**
 
-It includes a Streamlit-based HMI dashboard, synthetic fault generation, Random Forest and MLP classifiers, cost-effectiveness evaluation, and full deployment support.
+It includes a Streamlit-based HMI dashboard, synthetic fault generation, LSTM, Random Forest, and MLP classifiers, cost-effectiveness evaluation, and full deployment support.
 This paper explores the modeling of a machine learning-based framework for predictive maintenance in wind turbines with the aid of SCADA sensor data. The system leverages synthetic and historical fault data, dimensionality reduction,
-and anomaly detection through Random Forest and Multi-Layer Perception. The solution aims to flag abnormal behavior early, reduce downtime, and enhance turbine reliability.
-
+and anomaly detection through LSTM, Random Forest, and Multi-Layer Perception. The solution aims to flag abnormal behavior early, reduce downtime, and enhance turbine reliability.
+Please access the dataset from the drive link: "https://drive.google.com/drive/folders/11-RIBhU8uVuEgBvZ2jaOC92UqbdSpHpM?usp=sharing".
+Also, you can access the modeling code in Python Colab directly through: "https://colab.research.google.com/drive/1FSzUR1JSyDbygVVnMLrJ2S89Z9iM6jXE?usp=sharing".
 Project Structure
 
 ```bash
@@ -48,7 +49,7 @@ Key Features
 - Synthetic fault injection using statistical deviation patterns
 - Realistic sensor augmentation with progressive and overlapping faults
 - Grid-search over model hyperparameters with cost trade-off function
-- Random Forest and MLP classifier support
+- LSTM, Random Forest, and MLP classifier support
 - SCADA-based anomaly prediction
 - HMI-style UI to visualize turbine status and component-level faults
 
